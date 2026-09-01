@@ -1,8 +1,40 @@
-# MIT License
+MOCAP RETARGETING TOOL
+======================
+
+This repository contains a modified and extended version of the
+Animation Retargeting Tool originally created by Joar Engberg.
+
+Original project:
+https://github.com/joaen/animation-retargeting-tool
+
+Original author:
+Joar Engberg
+
+Original license:
+MIT License
+
+
+MODIFICATIONS
+-------------
+
+This version has been modified and extended by AJOY.
+
+Additional features and workflow improvements include:
+
+- Auto-Connect By Name
+- Mirror Connections
+- Connection Search
+- Pre-Bake Validation
+- Batch Bake & Export
+
+
+MIT LICENSE
+-----------
 
 Copyright (c) 2022 Joar Engberg
 
-Copyright (c) 2026 AJOY (modifications and extensions)
+Copyright (c) 2026 AJOY for modifications and extensions
+
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -11,8 +43,10 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
+
 The above copyright notice and this permission notice shall be included in
 all copies or substantial portions of the Software.
+
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
