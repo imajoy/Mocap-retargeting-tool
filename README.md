@@ -73,13 +73,18 @@ You can also optionally specify which nodes should be exported.
 - PySide2 for Maya versions before 2025
 - PySide6 for Maya 2025 and newer
 
-## Installation
+## Installation:
 
-Copy:
+1. Add `mocap_retargeting_tool.py` to your Maya scripts folder
+   (`Username\Documents\maya\scripts`).
 
-`mocap_retargeting_tool.py`
+2. To start the tool within Maya, run these lines of code from the Maya Script
+   Editor or add them to a shelf button:
 
-to your Maya scripts directory:
+```python
+import importlib
+import mocap_retargeting_tool
 
-```text
-Documents/maya/scripts
+importlib.reload(mocap_retargeting_tool)
+
+mocap_retargeting_tool.start()
